@@ -2,6 +2,23 @@
 .tdui {
     display: -webkit-box;
     &-page-header {
-        background-color: aqua;
+        display: flex;
+        flex-direction: row;
+        height: 60px;
+        background-color: #2b83f9;
+        background-image: linear-gradient(143deg, #2945cb 20%, #2b83f9 81%, #3a9dff);
+        z-index: 1;
+        .item {
+            height: 60px;
+        }
+        .start {
+            width: 200px;
+        }
+        .content {
+            width: 100%;
+        }
+        .end {
+            width: 500px;
+        }
     }
 }

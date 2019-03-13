@@ -1,12 +1,12 @@
- import pageHeader from './components/page-header/index';
+ import PageHeader from './components/page-header/index';
  let version = VERSION;
  console.log(`TDUI v${version}`);
  const TDUI = {
-     pageHeader,
+     PageHeader,
      version
  };
  export {
-     pageHeader,
+     PageHeader,
      version
  };
  export default TDUI;
